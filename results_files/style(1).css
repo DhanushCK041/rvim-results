@@ -1,0 +1,449 @@
+/*
+Theme Name: TM Moody Child
+Theme URI: http://arden.thememove.com/
+Author: ThemeMove
+Author URI: http://thememove.com/
+Version: 1.0
+Template: tm-moody
+Tags: editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+/* general styling */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, th
+{
+	font-family: "Playfair Display", Georgia, serif !important;
+}
+.page-content {
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+.uc
+{
+	text-transform:uppercase;
+}
+.ptb80
+{
+	padding:80px 0;
+}
+.ptb100
+{
+	padding:100px 0;
+}
+.ptb50
+{
+	padding:50px 0;
+}
+.ptb30
+{
+	padding:30px 0;
+}
+.pb70
+{
+padding-bottom:70px;
+}
+.bordr-yellow
+{
+	border-right:2px solid #f5bb36;
+}
+.yellowtxt
+{
+color:#f4b21a;	
+}
+.whitetxt
+{
+	color:#fff;
+}
+/*navigation global  */
+.header01.desktop-menu .branding {
+    left: 0 !important;
+}
+.page-top-bar .menu>li>a {
+    padding: 6px 8px;
+}
+.page-top-bar.page-top-bar-01
+{
+	text-align:right;
+}
+.header01.desktop-menu .branding, .header01.desktop-menu .header-right
+{
+	top:61%;
+}
+/*button style  */
+.custbut .tm-button.style-flat {
+    padding: 0 33px;
+    height: 40px;
+    border-width: 0;
+    border-radius: 26px;
+    text-transform: capitalize;
+    letter-spacing: .1em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+}
+/*home page  */
+.textbg1
+{
+	background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/bg2.png);
+    background-size: contain;
+    padding: 35px 30px;
+    color: #fff;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.textbg1 p
+{
+	line-height:1;
+}
+
+.tm-counter.style-1 .number-wrap
+{
+	    font-size: 50px;
+    line-height: 1;
+    2: ;
+    font-weight: 700;
+	margin: 0;
+    font-family: "Playfair Display", Georgia, serif;
+}
+#tm-counter-5eba644594968.tm-counter {
+    margin-bottom: 0px;
+}
+.students span.number::before {
+    content: url(https://rvim.edu.in/wp-content/uploads/2017/09/student.png);
+    position: absolute;
+    left: -15px;
+    top: 0;
+}
+.students span.number::after {
+    content: "Students";
+    font-size: 16px;
+    bottom: -20px;
+    font-family: poppins;
+    left: 23%;
+    font-weight: 500;
+    color: #333333;
+    position: absolute;
+}
+.faculty span.number::before {
+    content: url(https://rvim.edu.in/wp-content/uploads/2017/09/faculty.png);
+    position: absolute;
+    left: 17px;
+    top: 0;
+}
+.faculty span.number::after {
+    content: "Faculty";
+    font-size: 16px;
+    bottom: -20px;
+    font-family: poppins;
+    left: 34%;
+    font-weight: 500;
+    color: #333333;
+    position: absolute;
+}
+.placement span.number::before {
+    content: url(https://rvim.edu.in/wp-content/uploads/2017/09/placemnet.png);
+    position: absolute;
+    left: 12px;
+    top: 0;
+}
+.placement span.number::after {
+    content: "Placement Success";
+    font-size: 16px;
+    bottom: -20px;
+    font-family: poppins;
+    left: 32%;
+    font-weight: 500;
+    color: #333333;
+    position: absolute;
+}
+.alumni span.number::before {
+    content: url(https://rvim.edu.in/wp-content/uploads/2017/09/alumni.png);
+    position: absolute;
+    left: -35px;
+    top: 0;
+}
+.alumni span.number::after {
+    content: "Alumni";
+    font-size: 16px;
+    bottom: -20px;
+    font-family: poppins;
+    left: 22%;
+    font-weight: 500;
+    color: #333333;
+    position: absolute;
+}
+.bg3
+{
+	background-image:url("https://rvim.edu.in/wp-content/uploads/2017/09/THE-MBA-PROGRAMME-bg.jpg");
+	background-size:contain;
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-color:#f4f6fa;
+}
+
+.mbaprogram
+{
+    padding-top: 33px !important;
+}
+
+.mbaprogram .text::after {
+    content: 'know more';
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #f4b21a;
+    padding: 8px 15px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: .1em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+}
+.mbaprogram .swiper-slide
+{
+	min-height:370px !important;
+}
+.mbaprogram .swiper-slide div
+{
+	background-color:#fff;
+}
+.mbaprogram .heading, .mbaprogram .text
+{
+	padding-left:20px;
+}
+.mbaprogram .heading
+{
+	font-weight:600;
+}
+.mbaprogram .swiper-nav-button
+{
+	background-color: #f4b21a;
+}
+.downbroch {
+    position: absolute;
+    bottom: 0 !important;
+}
+.visit p {
+    margin: 0;
+	line-height:1;
+	color:#0d243e;
+}
+span.numbers {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 700;
+}
+.wpb_text_column.wpb_content_element.visit {
+    padding: 45px 20px;
+}
+p.primfont {
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.compvisit {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2020/05/company.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: bottom right;
+}
+.placed {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2020/05/placed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: bottom right;
+}
+.hpackage {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2020/05/investment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: bottom right;
+}
+.package {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2020/05/package.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: bottom right;
+}
+.noshow
+{
+	display:none;
+}
+.virtual::after
+{
+	content: url(https://rvim.edu.in/wp-content/uploads/2017/09/arrow-copy-5-1.png);
+    position: absolute;
+    padding-left: 10px;
+	top:5px;
+}
+.virtual
+{
+	font-family:"Playfair Display", Georgia, serif !important;
+}
+/* carousel */
+
+  .carousel-item:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    /* z-index: 999; */
+}
+#myCarousel, .carousel-item {
+    height: 100vh;
+}
+
+span.carousel-control-prev-icon {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/arrow-copy-5-1.png);
+	transform: rotate(180deg);
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+
+ol.carousel-indicators {
+    display: none;
+}
+
+span.carousel-control-next-icon {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/arrow-copy-5-1.png);
+    
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+
+
+.carousel-caption a {
+z-index: 9;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-transform: none;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    visibility: visible;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;
+    background-color:#3DA3DB;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border:none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    transform-origin: 75px 20px;
+    opacity: 1;
+    transform: perspective(600px);
+
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 10% !important;
+    left: 15%;
+    z-index: 999999999 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.carousel-caption p {
+    font-size: 20px;
+}
+.carousel-item.banner-1 {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/slider1.png);
+    background-position: top center;
+    background-size: cover;
+}
+
+.carousel-item.banner-2 {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/banner-3.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.carousel-item.banner-3 {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/slider1.png);
+    background-position: top center;
+    background-size: cover;
+}
+.carousel-item.banner-4 {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/banner-4.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+#banner-new {
+    margin-top: -100px;
+}
+.carousel-control-next, .carousel-control-prev {
+    z-index: 99999999 !important;
+    
+}
+.carousel-caption {
+    background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/sliderele.png);
+    background-size: 675px 196px;
+    background-repeat:no-repeat;
+	text-align:justify !important;
+}
+.carousel-control-prev {
+    right: 60px !important;
+}
+.carousel-control-next, .carousel-control-prev {
+/*     bottom: 10% !important; */
+    display: -webkit-box !important;
+    -webkit-box-align: end !important;
+	width:auto !important;
+}
+.controls-bottom
+{
+	position:absolute;
+	right: 5%;
+    bottom: 10%;
+}
+a.fotcol
+{
+	color:#fff;
+}
+/* academics */
+#pagebanner
+{
+	min-height:70vh;
+}
+#pagebanner .bannertxt
+{
+	background-image: url(https://rvim.edu.in/wp-content/uploads/2017/09/sliderele.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px 20px;
+}
+.bannertxt .h2
+{
+	color:#fff !important;
+}
+.acabg2
+{
+	background-image:url("https://rvim.edu.in/wp-content/uploads/2017/09/acabg.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+li#menu-item-6422
+{
+	position:absolute;
+	right:0;
+}
+
+.aqar-criteria-main-row a {color: #2a5694 !important;  margin-bottom: 10px !important;display: block;}
